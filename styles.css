@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    display: flex;
+    background-image: url('images/toledo-drone.jpg');
+    background-size: cover;
+    height: 343px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#attractions {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+    margin-top: 0;
+}
+
+#attractions-title {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.attraction-tag {
+    
+}
+
+.attraction-paragraph {
+    margin-bottom: 38px;
+}
+
+#att-columns {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#zoo, #tma, #ftf {
+    width: 190px;
+}
+
+#zoo-img, #tma-img, #ftf-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#zoo-img {
+    background-image: url('images/zoo-drone.jpg');
+}
+
+h1, h2 {
+    text-shadow: 0 0 4px black;
+}
+
+#title {
+    background-color: #1D3557;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px 12px
+}
+
+#subtitle {
+    width: 400px;
+    background-color: #1D3557;
+    margin: 16px auto;
+    border-radius: 5px;
+    padding: 5px 12px
+}
+
+img {
+    width: 100px;
+}
+
+#card {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 5px solid #1d3557;
+    border-radius: 20px;
+    background: #A8DADC;
+    color: #1D3557;
+}
+
+#rashad-pic {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
